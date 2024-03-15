@@ -1,0 +1,19 @@
+{
+  "name": "claro-nightwatch",
+  "version": "1.1.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && nightwatch"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@types/nightwatch": "^2.3.30",
+    "chromedriver": "^121.0.0",
+    "geckodriver": "^4.3.1",
+    "nightwatch": "^3.4.0",
+    "typescript": "^5.4.2"
+  }
+}

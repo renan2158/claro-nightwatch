@@ -1,0 +1,14 @@
+# Dependencies
+/node_modules
+
+# Typescript build
+/dist
+
+# Test execution
+/logs
+/tests_output
+
+# Lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
